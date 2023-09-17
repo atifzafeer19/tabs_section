@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    max-width: 1300px;
+    padding: 20px 0;
+    margin: auto;
+}
+.tab-container{
+    display: flex;
+}
+.tabbtn{
+    flex-basis: 30%;
+}
+.tab-switch-main{
+    background-color: bisque;
+    flex-basis: 70%;
+}
+.sub-btns{
+    padding-left: 20px;
+    /* border: 2px solid rebeccapurple; */
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 30px;
+    font-size: 16px;
+    line-height: 1em;
+    max-width: 200px;
+    margin-bottom: 2px;
+    border: 2px solid #03649b;
+    border-radius: 5px;
+}
+.sub-btns >*{
+    padding-left: 20px;
+    
+}
+.active {
+    color: black;
+    background-color: #afceff;
+}
+.tab{
+    height: 100%;
+}
